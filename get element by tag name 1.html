@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function counth1(){
+            var totalh1=document.getElementsByTagName("h1");
+            alert("total h1 tags are: "+totalh1.length);
+
+        }
+        function counth2(){
+            var totalh2=document.getElementsByTagName("h2");
+            alert("total h2 tags are: "+totalh2.length);
+        }
+    </script>
+    <h1> This is a h1 getElementsByTagName </h1>
+    <h1> This is a h1 getElementsByTagName </h1>
+    <h1> This is a h1 getElementsByTagName</h1>
+    <h1> This is a h1 getElementsByTagName </h1>
+    <button onclick="counth1()"> count h1 </button>
+    <h2> This is a h2 getElementsByTagName </h2>
+    <h2> This is a h2 getElementsByTagName </h2>
+    <h2> This is a h2 getElementsByTagName </h2>
+    <h2> This is a h2 getElementsByTagName </h2>
+   <button onclick="counth2()"> count h2 </button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Javascritp HTML DOM. </h1>
+    <p> Hello World !</p>
+    <p> Hello Norway ! </p>
+    <p> Hello computer </p>
+
+    <p> Hello say my name </p>
+    <p id="demo"> </p>
+
+    <script>
+        const mycollecion=document.getElementsByTagName("p");
+        document.getElementById("demo").innerHTML=" This document contains " + mycollecion.length + " paragraph. "
+
+    </script>
+</body>
+</html>
